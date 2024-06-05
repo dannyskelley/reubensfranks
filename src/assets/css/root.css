@@ -156,7 +156,7 @@
   /* roboto-regular - latin */
   @font-face {
     font-style: normal;
-    font-family: 'Space Grotesk';
+    font-family: "Space Grotesk";
     font-weight: 400;
     font-display: swap;
     src: local(""), url("/assets/fonts/space-grotesk-v16-latin-regular.woff2") format("woff2"), url("/assets/fonts/space-grotesk-v16-latin-regular.woff2") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -164,12 +164,11 @@
   /* roboto-700 - latin */
   @font-face {
     font-style: normal;
-    font-family: 'Space Grotesk';
+    font-family: "Space Grotesk";
     font-weight: 700;
     font-display: swap;
     src: local(""), url("/assets/fonts/space-grotesk-v16-latin-700.woff2") format("woff2"), url("/assets/fonts/space-grotesk-v16-latin-700.woff2") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
-
 }
 /* Reset Margins */
 @media only screen and (min-width: 1024px) {
@@ -263,7 +262,7 @@
     /* prevents padding from affecting height and width */
     box-sizing: border-box;
     padding: 0.75rem 1rem;
- 
+    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
   #cs-navigation .cs-container {
