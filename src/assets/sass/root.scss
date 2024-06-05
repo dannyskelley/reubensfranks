@@ -127,7 +127,7 @@
         margin: 0;
         overflow-x: hidden;
         padding: 0;
-        font-family: "Roboto", Arial, sans-serif;
+        font-family: "Space Grotesk", Arial, sans-serif;
         font-size: 100%;
         color: var(--bodyTextColor);
     }
@@ -855,7 +855,7 @@
         box-sizing: border-box;
         padding: 0 calc(16 / 16 * 1rem);
         /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
-        font-family: "Roboto", "Arial", sans-serif;
+       
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
         .cs-container {
