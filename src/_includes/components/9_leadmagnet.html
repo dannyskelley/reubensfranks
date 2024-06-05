@@ -1,0 +1,182 @@
+<STYLE>
+
+    /*-- -------------------------- -->
+<---            CTA             -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #cta-1294-1294 {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    margin-bottom: -5.625rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    /* 40px - 80px */
+    padding: clamp(2.5rem, 5vw, 5rem);
+    /* prevents padding and border from affecting height and width */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 15;
+    
+  }
+  #cta-1294-1294 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    /* changes to 100% at tablet */
+    max-width: 25rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+    gap: 1.5rem;
+  }
+  #cta-1294-1294 .cs-title {
+    width: 100%;
+    margin: 0;
+    color: var(--bodyTextColorWhite);
+  }
+  #cta-1294-1294 .cs-form {
+    width: 100%;
+    max-width: 45.3125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+  #cta-1294-1294 .cs-input {
+    font-size: 1rem;
+    width: 100%;
+    height: clamp(2.875rem, 5.5vw, 3.5rem);
+    margin: 0;
+    padding: 0;
+    padding-left: 1.25rem;
+    border: none;
+    /* prevents padding from adding to width and height */
+    box-sizing: border-box;
+    display: block;
+  }
+  #cta-1294-1294 .cs-input::placeholder {
+    color: #767676;
+  }
+  #cta-1294-1294 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    border-radius: 9999px;
+    background-color: var(--primary);
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #cta-1294-1294 .cs-button-solid:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width 0.3s;
+  }
+  #cta-1294-1294 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #cta-1294-1294 .cs-button-solid {
+    background-color: #fff;
+    color: var(--primary);
+  }
+  #cta-1294-1294 .cs-background {
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #cta-1294-1294 .cs-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #cta-1294-1294 .cs-container {
+    padding-left: 3.75rem;
+    padding-right: 3.75rem;
+  }
+  #cta-1294-1294 .cs-content {
+    text-align: left;
+    max-width: 100%;
+    justify-content: space-between;
+  }
+  #cta-1294-1294 .cs-form {
+    flex-direction: row;
+  }
+  #cta-1294-1294 .cs-input {
+    width: 100%;
+    max-width: 32.8125rem;
+  }
+  #cta-1294-1294 .cs-submit {
+    width: auto;
+    min-width: 11.875rem;
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+}
+/* Desktop - 1300px */
+@media only screen and (min-width: 81.25rem) {
+  #cta-1294-1294 {
+    margin-bottom: 0rem;
+  }
+  #cta-1294-1294 .cs-content {
+    flex-direction: row;
+  }
+  #cta-1294-1294 .cs-form {
+    width: 60%;
+  }
+}
+</STYLE>
+
+
+<div class="cs-container">       
+    <!-- Subscribe Form -->
+    <div id="cta-1294-1294">
+        <div class="cs-content">
+            <h2 class="cs-title">Our staff is always available to assist you with any questions</h2>
+            <a href="" class="cs-button-solid">Contact Us</a>
+        </div>
+        <!--Background Image-->
+        <picture class="cs-background">
+            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/cta-waves.svg">
+            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/cta-waves-t.svg">
+            <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/cta-waves-t.svg" alt="waves" width="1280" height="278" aria-hidden="true">
+        </picture>
+    </div>   
+</div>

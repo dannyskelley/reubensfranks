@@ -5,8 +5,8 @@
 /* CodeStitch Root and Helpers */
 @media only screen and (min-width: 0rem) {
   :root {
-    --primary: #ffba19;
-    --primaryLight: #ffd675;
+    --primary: orange;
+    --primaryLight: purple;
     --secondary: #001f3f;
     --secondaryLight: #001f3f;
     --headerColor: #1a1a1a;
@@ -23,8 +23,6 @@
   .cs-topper {
     display: block;
     margin-bottom: 0.25rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
     font-size: var(--topperFontSize);
     line-height: 1.2em;
     font-weight: 700;
@@ -58,7 +56,6 @@
     width: auto;
     padding: 0 1.875rem;
     text-decoration: none;
-    text-transform: uppercase;
     font-size: 1rem;
     line-height: 3.125em;
     font-weight: bold;
@@ -717,7 +714,6 @@
     justify-content: flex-end;
     align-items: center;
     margin: auto;
-    max-width: 80rem;
     width: 100%;
     gap: 1.5rem;
   }
