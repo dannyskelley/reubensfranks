@@ -156,7 +156,7 @@
   /* roboto-regular - latin */
   @font-face {
     font-style: normal;
-    font-family: "Space Grotesk";
+    font-family: 'Space Grotesk';
     font-weight: 400;
     font-display: swap;
     src: local(""), url("/assets/fonts/space-grotesk-v16-latin-regular.woff2") format("woff2"), url("/assets/fonts/space-grotesk-v16-latin-regular.woff2") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -164,10 +164,10 @@
   /* roboto-700 - latin */
   @font-face {
     font-style: normal;
-    font-family: "Space Grotesk";
+    font-family: 'Space Grotesk';
     font-weight: 700;
     font-display: swap;
-    src: local(""), url("/assets/fonts/space-grotesk-v16-latin-700.woff2") format("woff2"), url("/assets/fonts/rspace-grotesk-v16-latin-700.woff2") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    src: local(""), url("/assets/fonts/space-grotesk-v16-latin-700.woff2") format("woff2"), url("/assets/fonts/space-grotesk-v16-latin-700.woff2") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 
 }
