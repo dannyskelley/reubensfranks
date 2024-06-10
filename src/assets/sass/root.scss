@@ -8,9 +8,9 @@
 @media only screen and (min-width: 0rem) {
     // Website colors
     :root {
-        --primary: orange;
-        --primaryLight: purple;
-        --secondary: #001f3f;
+        --primary: #eb5546;
+        --primaryLight: ;
+        --secondary: #094a28;
         --secondaryLight: #001f3f;
         --headerColor: #1a1a1a;
         --bodyTextColor: #4e4b66;
@@ -322,7 +322,7 @@
     #cs-navigation {
         z-index: 10000;
         position: fixed;
-        background-color: #fff;
+        
         width: 100%;
         /* prevents padding from affecting height and width */
         box-sizing: border-box;
@@ -841,7 +841,7 @@
     #cs-navigation {
         z-index: 10000;
         position: fixed;
-        background-color: #fff;
+
         width: 100%;
         /* prevents padding from affecting height and width */
         box-sizing: border-box;

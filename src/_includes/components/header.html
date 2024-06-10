@@ -21,11 +21,12 @@ html {
         overflow: hidden;
     }
     #cs-navigation {
+        background-color:var(--secondary);
         width: 100%;
         padding: 0.75rem 1rem;
         /* prevents padding and border from affecting height and width */
         box-sizing: border-box;
-        background-color: #1a1a1a;
+        
         position: fixed;
         z-index: 10000;
     }
@@ -44,8 +45,8 @@ html {
         align-items: center;
     }
     #cs-navigation .cs-logo {
-        width: 40%;
-        max-width: 9.125rem;
+        width: 100%;
+        max-width: 14.125rem;
         height: 100%;
         margin: 0 auto 0 0;
         padding: 0;
@@ -238,7 +239,7 @@ html {
         padding: 0 1rem;
         /* prevents padding and border from affecting height and width */
         box-sizing: border-box;
-        background-color: #1a1a1a;
+        background-color:var(--secondary);
         position: fixed;
         z-index: 10000;
     }
@@ -361,7 +362,7 @@ html {
     <div class="cs-container">
         <!--Nav Logo-->
         <a href="/" class="cs-logo" aria-label="back to home">
-            <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Hero/food-logo.svg" alt="logo" height="50" aria-hidden="true" decoding="async">
+            <img src="/assets/images/logo.svg" alt="logo" height="50" aria-hidden="true" decoding="async">
         </a>
         <!--Navigation List-->
         <nav class="cs-nav" role="navigation">
